@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Run JS Script",
+  "version": "1.0",
+  "description": "Exécuter un script JavaScript sur la page courante",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
